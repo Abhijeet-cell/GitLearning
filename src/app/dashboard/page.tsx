@@ -12,7 +12,6 @@ function DashboardPage() {
         <WelcomeSection />
         <MainActions />
         <ActivityOverview />
-        export const dynamic = "force-dynamic";
       </div>
     </>
   );
