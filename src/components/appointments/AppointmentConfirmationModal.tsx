@@ -58,7 +58,7 @@ export function AppointmentConfirmationModal({
                 alt="Email sent"
                 width={120}
                 height={120}
-                className="mx-auto"
+                className="w-24 h-auto" // w-24 = 96px, h-auto keeps aspect
               />
             </div>
 

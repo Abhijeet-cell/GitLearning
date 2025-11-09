@@ -40,7 +40,7 @@ export default function RootLayout({
           },
         }}
       >
-        <html lang="en" suppressHydrationWarning>
+        <html lang="en" suppressHydrationWarning={true}>
           <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased dark`}
           >
