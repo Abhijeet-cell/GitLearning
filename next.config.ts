@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
     }
     return config;
   },
+  outputFileTracingIncludes: {
+    "/api/**/*": ["./node_modules/.prisma/client/**/*"],
+
+    "/*": ["./node_modules/.prisma/client/**/*"],
+  },
   /* config options here */
   images: {
     remotePatterns: [
